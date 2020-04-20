@@ -1,14 +1,85 @@
+body, a, p, li, ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+}
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
-li {
-    float: right;
+
+    
 }
 li a {
-    display: block;
+    display:block;
     padding: 8px;
     background-color: #dddddd;
+    
+}
+.mail {
+    color:rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    padding: 15px;
+    line-height: 24px;
+    
+    font-size: 13px;
+    
+
+}
+.mail:hover {
+    text-decoration: underline;
+}
+.btn {
+    background-color:#4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 8px;
+    margin: 10px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid white; 
+    align-items: center;
+    width: 550px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,.1);
+
+}
+.btn2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+.btn3 {
+    background-color:#f2f2f2;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    color:#757575;
+}
+.btn3:hover {
+    color: black;
+    border: 1px solid #d9d9d9;
 }
